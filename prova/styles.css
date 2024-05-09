@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: 'Inter', sans-serif; /* Applica il font Inter al testo */
+}
+
+.content {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 72px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 40px; /* Aggiunge spazio sopra i pulsanti */
+}
+
+.button {
+    background-color: #0055FF;
+    color: white;
+    font-size: 19px;
+    font-family: 'Inter', sans-serif; /* Applica il font Inter al testo */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Rende i pulsanti con un bordo arrotondato */
+    margin: 10px;
+    font-weight: bold;
+}
+
+.homebutton {
+    right: 0px;
+    width: 125px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 2;}
+	
+.homebutton a {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.3em 1.25em;
+    border: 1px solid #c2c7cc;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.667em;
+    text-decoration: none;
+    color: #8a9199;
+    cursor: pointer;
+    background: #fff;
+    transition: color,border-color ease 0.3s;
+    border-radius: 2em;
+}
+.homebutton a:hover {
+    border-color: #42B6F3;
+    color: #42B6F3;
+    text-decoration: none;
+}
